@@ -2,7 +2,7 @@ def lockanimation():
 	import os
 	cls = lambda: os.system("cls")
 	import time
-	x = .05 #speed of animation
+	x = .1 #speed of animation
 	y = 0	#range from left
 	z = 2	#range from top (min 2 or 1)
 	cls()
@@ -176,24 +176,19 @@ def lockanimation():
 	time.sleep(x*.6)
 	cls()
 	print("\n"*(z-2)+"\t"*y+"     .-    -.")
-	print("\t"*y+"     /:         ")
-	print("\t"*y)
+	print("\t"*y+"     /:         \n")
 	print("\t"*y+"    /           -")
 	print("\t"*y+"  -              ")
-	print("\t"*y+"              ")
-	print("\t"*y)
+	print("\t"*y+"              \n")
 	print("\t"*y+" `  /      /   /:`")
 	print("\t"*y+" :     -.-/      ")
 	print("\t"*y)
 	print("\t"*y+"`    /    -/     /`")
 	print("\t"*y+" -              /-")
 	print("\t"*y+"     /  /     /  ")
-	print("\t"*y)
 	time.sleep(x*.6)
 	cls()
-	print("\n"*(z-2)+"\t"*y+"     .-    -.")
-	print("\t"*y)
-	print("\t"*y)
+	print("\n"*(z-2)+"\t"*y+"     .-    -.\n\n")
 	print("\t"*y+"    /           -")
 	print("\t"*y)
 	print("\t"*y+"              ")
